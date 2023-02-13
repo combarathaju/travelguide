@@ -1,0 +1,20 @@
+.header{
+    text-align: center;
+    height: 600px;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/720/543/706/india-4k-full-hd-desktop-download-wallpaper-preview.jpg");
+    background-size: cover;
+}
+.navbar-brand{
+font-size: 2rem;
+}
+.col-6{
+    text-align: center;
+    margin-top: 5rem;
+    
+}
+.col-6 h1,h2{
+    color: red;
+}
+#btn{
+    margin-top: 150px;
+}
