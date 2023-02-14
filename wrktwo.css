@@ -3,6 +3,7 @@
     height: 600px;
     background-image: url("https://c4.wallpaperflare.com/wallpaper/720/543/706/india-4k-full-hd-desktop-download-wallpaper-preview.jpg");
     background-size: cover;
+    background-attachment: fixed;
 }
 .navbar-brand{
 font-size: 2rem;
@@ -17,4 +18,110 @@ font-size: 2rem;
 }
 #btn{
     margin-top: 150px;
+}
+.trvl{
+     width: 23%;
+    height: 550px;
+    background-color: white;
+    border: 1px solid;
+    padding: 10px;
+    float: left;
+    margin: 10px;
+}
+#mainheading{
+    text-align: center;
+    color: black;
+    font-size: 2 rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dropdown{
+    text-align: center;
+}
+#secondheading{
+    text-align: center;
+    color: orangered;
+    font-size: 2 rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+iframe{
+    margin-top: 1px;
+}
+#frstimg{
+    margin-top: 1px;
+}
+#subheading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.iconDiv{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon {
+    width: 50px;
+    height: 50px;
+    border: 1px solid;  
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  }
+  .icon i{
+    font-size: 20px;
+  }
+    .icon:hover{
+      background-image: linear-gradient(blanchedalmond, red ) ;
+      color: aliceblue;
+    }
+    footer{
+      margin: 2rem;
+    }
+    .heading1{
+        text-align: center;
+    }
+  .uparrow{
+    float: right;
+    margin: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  
+    background-image: linear-gradient(blanchedalmond, red ) ;
+  
+  }
+  ::-webkit-scrollbar{
+    width: 15px;
+    
+  }
+  ::-webkit-scrollbar-track{
+    background-color: black;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: blue;
+    border-radius: 10px;
+  }
+#mail{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+#mail1{
+  margin-left: 39rem;
+  margin-top: 3rem;
+}
+#marg{
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+#git1{
+  text-align: center;
 }
